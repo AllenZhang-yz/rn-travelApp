@@ -18,7 +18,7 @@ const redis = new Redis();
 
 const client = new Client({
   connectionString:
-    'postgres://pzdpycvxjdxqhf:2a8a41f331f5f86ff7510ed35f4573313ac82f7c52776cf0db7d32cee2ba58e5@ec2-52-22-94-132.compute-1.amazonaws.com:5432/dlqa9oeq7qdql',
+    'postgres://xxxxx',
   ssl: {
     rejectUnauthorized: false,
   },
