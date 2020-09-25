@@ -1,0 +1,14 @@
+query GetPlaces {
+  places {
+    id
+    title
+    description
+    imageUrl
+    creationDate
+    user {
+      id
+      username
+      email
+    }
+  }
+}

@@ -1,0 +1,9 @@
+mutation CreatePlace($place: PlaceInput!) {
+  createPlace(place: $place) {
+    id
+    title
+    description
+    imageUrl
+    creationDate
+  }
+}

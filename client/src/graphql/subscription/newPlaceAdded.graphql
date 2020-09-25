@@ -1,0 +1,14 @@
+subscription NewPlaceAdded {
+  newPlaceAdded {
+    id
+    title
+    description
+    imageUrl
+    creationDate
+    user {
+      id
+      username
+      email
+    }
+  }
+}
